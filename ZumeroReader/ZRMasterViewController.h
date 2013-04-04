@@ -7,11 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Zumero/Zumero.h>
 
 @class ZRDetailViewController;
 
-@interface ZRMasterViewController : UITableViewController
+@interface ZRMasterViewController : UITableViewController <ZumeroDBDelegate>
+
+- (BOOL) sync;
 
 @property (strong, nonatomic) ZRDetailViewController *detailViewController;
+@property (strong, nonatomic) id<ZumeroDBDelegate> syncdelegate;
 
 @end

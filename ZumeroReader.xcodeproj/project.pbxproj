@@ -22,6 +22,16 @@
 		0F5DA871170B29B7000BE29E /* ZRMasterViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F5DA86F170B29B7000BE29E /* ZRMasterViewController_iPad.xib */; };
 		0F5DA874170B29B7000BE29E /* ZRDetailViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F5DA872170B29B7000BE29E /* ZRDetailViewController_iPhone.xib */; };
 		0F5DA877170B29B7000BE29E /* ZRDetailViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0F5DA875170B29B7000BE29E /* ZRDetailViewController_iPad.xib */; };
+		0F5DA87E170C680A000BE29E /* Zumero.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5DA87D170C680A000BE29E /* Zumero.framework */; };
+		0F5DA880170C69EE000BE29E /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5DA87F170C69EE000BE29E /* CFNetwork.framework */; };
+		0F5DA882170C69F4000BE29E /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5DA881170C69F4000BE29E /* libz.dylib */; };
+		0F5DA884170C69FF000BE29E /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5DA883170C69FF000BE29E /* libsqlite3.dylib */; };
+		0FE4F40A1713701B0013FA4A /* rss.css in Resources */ = {isa = PBXBuildFile; fileRef = 0FE4F4091713701B0013FA4A /* rss.css */; };
+		0FE4F40D171376720013FA4A /* ZRConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FE4F40C171376720013FA4A /* ZRConfig.m */; };
+		0FE4F4121713AFA20013FA4A /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE4F40E1713AFA20013FA4A /* Icon-72.png */; };
+		0FE4F4131713AFA20013FA4A /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE4F40F1713AFA20013FA4A /* Icon-72@2x.png */; };
+		0FE4F4141713AFA20013FA4A /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE4F4101713AFA20013FA4A /* Icon.png */; };
+		0FE4F4151713AFA20013FA4A /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FE4F4111713AFA20013FA4A /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +56,17 @@
 		0F5DA870170B29B7000BE29E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZRMasterViewController_iPad.xib; sourceTree = "<group>"; };
 		0F5DA873170B29B7000BE29E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZRDetailViewController_iPhone.xib; sourceTree = "<group>"; };
 		0F5DA876170B29B7000BE29E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ZRDetailViewController_iPad.xib; sourceTree = "<group>"; };
+		0F5DA87D170C680A000BE29E /* Zumero.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zumero.framework; path = ../ios/Zumero.framework; sourceTree = "<group>"; };
+		0F5DA87F170C69EE000BE29E /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		0F5DA881170C69F4000BE29E /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		0F5DA883170C69FF000BE29E /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		0FE4F4091713701B0013FA4A /* rss.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = rss.css; sourceTree = "<group>"; };
+		0FE4F40B171376720013FA4A /* ZRConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZRConfig.h; sourceTree = "<group>"; };
+		0FE4F40C171376720013FA4A /* ZRConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZRConfig.m; sourceTree = "<group>"; };
+		0FE4F40E1713AFA20013FA4A /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = SOURCE_ROOT; };
+		0FE4F40F1713AFA20013FA4A /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72@2x.png"; sourceTree = SOURCE_ROOT; };
+		0FE4F4101713AFA20013FA4A /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = SOURCE_ROOT; };
+		0FE4F4111713AFA20013FA4A /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,9 +74,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F5DA884170C69FF000BE29E /* libsqlite3.dylib in Frameworks */,
+				0F5DA882170C69F4000BE29E /* libz.dylib in Frameworks */,
+				0F5DA880170C69EE000BE29E /* CFNetwork.framework in Frameworks */,
 				0F5DA84F170B29B7000BE29E /* UIKit.framework in Frameworks */,
 				0F5DA851170B29B7000BE29E /* Foundation.framework in Frameworks */,
 				0F5DA853170B29B7000BE29E /* CoreGraphics.framework in Frameworks */,
+				0F5DA87E170C680A000BE29E /* Zumero.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +90,9 @@
 		0F5DA842170B29B7000BE29E = {
 			isa = PBXGroup;
 			children = (
+				0F5DA883170C69FF000BE29E /* libsqlite3.dylib */,
+				0F5DA881170C69F4000BE29E /* libz.dylib */,
+				0F5DA87F170C69EE000BE29E /* CFNetwork.framework */,
 				0F5DA854170B29B7000BE29E /* ZumeroReader */,
 				0F5DA84D170B29B7000BE29E /* Frameworks */,
 				0F5DA84C170B29B7000BE29E /* Products */,
@@ -82,6 +110,7 @@
 		0F5DA84D170B29B7000BE29E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0F5DA87D170C680A000BE29E /* Zumero.framework */,
 				0F5DA84E170B29B7000BE29E /* UIKit.framework */,
 				0F5DA850170B29B7000BE29E /* Foundation.framework */,
 				0F5DA852170B29B7000BE29E /* CoreGraphics.framework */,
@@ -103,6 +132,8 @@
 				0F5DA872170B29B7000BE29E /* ZRDetailViewController_iPhone.xib */,
 				0F5DA875170B29B7000BE29E /* ZRDetailViewController_iPad.xib */,
 				0F5DA855170B29B7000BE29E /* Supporting Files */,
+				0FE4F40B171376720013FA4A /* ZRConfig.h */,
+				0FE4F40C171376720013FA4A /* ZRConfig.m */,
 			);
 			path = ZumeroReader;
 			sourceTree = "<group>";
@@ -110,6 +141,10 @@
 		0F5DA855170B29B7000BE29E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0FE4F40E1713AFA20013FA4A /* Icon-72.png */,
+				0FE4F40F1713AFA20013FA4A /* Icon-72@2x.png */,
+				0FE4F4101713AFA20013FA4A /* Icon.png */,
+				0FE4F4111713AFA20013FA4A /* Icon@2x.png */,
 				0F5DA856170B29B7000BE29E /* ZumeroReader-Info.plist */,
 				0F5DA857170B29B7000BE29E /* InfoPlist.strings */,
 				0F5DA85A170B29B7000BE29E /* main.m */,
@@ -117,6 +152,7 @@
 				0F5DA860170B29B7000BE29E /* Default.png */,
 				0F5DA862170B29B7000BE29E /* Default@2x.png */,
 				0F5DA864170B29B7000BE29E /* Default-568h@2x.png */,
+				0FE4F4091713701B0013FA4A /* rss.css */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -181,6 +217,11 @@
 				0F5DA871170B29B7000BE29E /* ZRMasterViewController_iPad.xib in Resources */,
 				0F5DA874170B29B7000BE29E /* ZRDetailViewController_iPhone.xib in Resources */,
 				0F5DA877170B29B7000BE29E /* ZRDetailViewController_iPad.xib in Resources */,
+				0FE4F40A1713701B0013FA4A /* rss.css in Resources */,
+				0FE4F4121713AFA20013FA4A /* Icon-72.png in Resources */,
+				0FE4F4131713AFA20013FA4A /* Icon-72@2x.png in Resources */,
+				0FE4F4141713AFA20013FA4A /* Icon.png in Resources */,
+				0FE4F4151713AFA20013FA4A /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +236,7 @@
 				0F5DA85F170B29B7000BE29E /* ZRAppDelegate.m in Sources */,
 				0F5DA868170B29B7000BE29E /* ZRMasterViewController.m in Sources */,
 				0F5DA86B170B29B7000BE29E /* ZRDetailViewController.m in Sources */,
+				0FE4F40D171376720013FA4A /* ZRConfig.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +347,10 @@
 		0F5DA87B170B29B7000BE29E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZumeroReader/ZumeroReader-Prefix.pch";
 				INFOPLIST_FILE = "ZumeroReader/ZumeroReader-Info.plist";
@@ -316,6 +362,10 @@
 		0F5DA87C170B29B7000BE29E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ios\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZumeroReader/ZumeroReader-Prefix.pch";
 				INFOPLIST_FILE = "ZumeroReader/ZumeroReader-Info.plist";
@@ -343,6 +393,7 @@
 				0F5DA87C170B29B7000BE29E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

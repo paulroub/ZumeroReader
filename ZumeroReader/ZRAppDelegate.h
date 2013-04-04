@@ -7,8 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Zumero/Zumero.h>
 
-@interface ZRAppDelegate : UIResponder <UIApplicationDelegate>
+@interface ZRAppDelegate : UIApplication <UIApplicationDelegate, ZumeroDBDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 

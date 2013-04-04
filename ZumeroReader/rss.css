@@ -1,0 +1,78 @@
+a .vvxurl{color:#666;font-weight:normal;}
+
+a.validWikiUrl { font-weight: bold; }
+
+a.invalidWikiUrl { font-style: italic; font-weight: normal; }
+
+a.invalidWikiUrl:link, a.invalidWikiUrl:visited { color: #F00; }
+
+ol li { list-style: decimal outside; }
+
+ul li { list-style: circle outside; }
+
+h1, h2, h3 { margin-top: 1em; margin-bottom: 1em; color: #7d7d7d; font-weight: bold; border-bottom: 1px solid #dcdcdc; }
+
+h1 { font-size: 125%; border-bottom-width: 2px; }
+
+h2 { background-color: inherit; font-size: 110%; }
+
+h3 { font-size: 100%; }
+
+blockquote { color: #000; background-color: #f0f0f0; padding: 2px; }
+
+table { border-collapse: collapse; margin-bottom: 1em; }
+table:last-child { margin-bottom: 0; }
+
+td, th { padding: 2px 5px; color: #000; }
+
+td { border: 1px solid #F0F0F0; background-color: #FFF; }
+
+th { border: 1px solid #CCC; background-color: #F0F0F0; }
+
+a.fixedbug { text-decoration: line-through; font-style: italic; }
+
+a.verifiedbug, a.verifiedbug:visited, a.verifiedbug:active { color: rgba(81, 109, 0, 0.75); font-weight: normal; }
+
+#wikititle { overflow: hidden; text-overflow: ellipsis; font-weight: bold; }
+
+.wikilink { float: left; overflow: hidden; display: block; width: 165px; margin-left: 5px; text-overflow: ellipsis; }
+
+.histcontrols { margin-bottom: 10px; }
+
+input.searchinput#wikisearch { min-width: 170px; }
+
+#wikibyline { float: left; margin-bottom: 0; }
+
+.titlebuttons input:last-child { margin-right: 0; }
+
+pre  {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+
+	border: 1px solid #CFCFCF;
+	background-color: #F6F6F6;
+	padding: 5px;
+	width: 100%;
+	overflow: auto;
+}
+
+article > h2 {
+	margin-bottom: 0;
+	padding-bottom, padding-top: 5px;
+	background-color: #F0F0F0;
+	color: #030303;
+}
+
+article > h2 > a, article > h2 > a:link, article > h2 > a:visited, article > h2 > a:active {
+	color: inherit;
+	text-decoration: none;
+}
+
+p.date { 
+	margin-top: 0;
+	padding-top: .5em;
+	font-size: 90%;
+	font-style: italic;
+}
+
+

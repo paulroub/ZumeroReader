@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ZRDetailViewController : UIViewController <UISplitViewControllerDelegate>
+@interface ZRDetailViewController : UIViewController <UISplitViewControllerDelegate, UIWebViewDelegate>
 
 @property (strong, nonatomic) id detailItem;
 
