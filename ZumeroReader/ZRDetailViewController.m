@@ -168,8 +168,11 @@
 	[content loadHTMLString:st baseURL:base];
 }
 
-- (NSString *)escape:(NSString *)html
+- (NSString *)escape:(id)html
 {
+	if ((! html) || [html isKindOfClass:[NSNull class]])
+		return nil;
+	
 	NSString *h = [html stringByReplacingOccurrencesOfString:@"&" withString:@"&amp;"];
 	h = [h stringByReplacingOccurrencesOfString:@"<" withString:@"&lt;"];
 	h = [h stringByReplacingOccurrencesOfString:@">" withString:@"&gt;"];
