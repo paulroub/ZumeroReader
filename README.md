@@ -17,5 +17,5 @@ accordingly, to add/update your own list of feeds.
 [zumero]: http://zumero.com/
 [sdk]: http://zumero.com/dev-center/
 [part1]: http://www.ericsink.com/entries/rss_cat_1.html
-[part5]: http://example.com/
+[part5]: http://blog.roub.net/2013/04/zumero-background-sync-in-objective-c.html
 [servervar]: https://github.com/paulroub/ZumeroReader/blob/master/ZumeroReader/ZRConfig.m#L14

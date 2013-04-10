@@ -135,7 +135,7 @@
 			NSArray *rows = nil;
 			
 			ok = [db selectSql:@"select feeds.feedid, url, title from feeds, about where (feeds.feedid = about.feedid)" values:nil rows:&rows error:&err];
-//			ok = [db select:@"feeds" criteria:nil columns:@[ @"feedid", @"url" ] orderby:nil rows:&rows error:&err];
+
 			[db close];
 			
 			if (ok)
